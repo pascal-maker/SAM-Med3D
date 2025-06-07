@@ -353,3 +353,4 @@ yapf
 zict==2.1.0
 zipp
 zope
+pillow==10.3.0
