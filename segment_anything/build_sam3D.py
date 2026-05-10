@@ -155,6 +155,8 @@ def _build_sam3D_ori(
     )
     sam.eval()
     if checkpoint is not None:
+        if ".." in checkpoint:
+            raise Exception("Invalid file path")
         with open(checkpoint, "rb") as f:
             state_dict = torch.load(f)
         sam.load_state_dict(state_dict)
