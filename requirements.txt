@@ -318,7 +318,7 @@ toml
 tomli
 tomlkit
 toolz
-torch==2.1.0
+torch==2.8.0
 torchaudio==2.0.2
 torchinfo==1.8.0
 torchio==0.19.1
