@@ -322,7 +322,7 @@ torch==2.13.0
 torchaudio==2.7.1
 torchinfo==1.8.0
 torchio==0.19.1
-torchvision==0.22.1
+torchvision==0.28.0
 tornado
 tqdm
 traceback2==1.4.0
