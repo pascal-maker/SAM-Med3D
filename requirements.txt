@@ -1,3 +1,4 @@
+--extra-index-url https://pypi.aikido.io/693ef7429f70ce46b004
 acvl-utils==0.2
 alabaster
 anaconda-client==1.11.0
@@ -204,7 +205,7 @@ patsy==0.5.2
 pep8==1.7.1
 pexpect
 pickleshare
-Pillow==9.2.0
+Pillow==9.4.0.post3+tuxcare
 pkginfo
 platformdirs
 plotly
